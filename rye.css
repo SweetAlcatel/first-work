@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(./ofont.ru_Lato.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url(./ofont.ru_Lato\ Light.ttf);
+}
+
+@font-face {
+    font-family: "DroidSans";
+    src: url(./ofont.ru_Droid\ Sans.ttf);
+}
+
+
+.navigation div a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    flex-basis: 5%;
+    margin-right: 5%;
+    font-family: "Lato-Bold";
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    top: 1%;
+    left: 0.5%;
+}
+
+.navigation {
+    padding: 2%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./rye-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.navigation .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.navigation .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 25%;
+}
+
+
+h1 {
+    font-family: "Lato-Light";
+    width: 50%;
+    color: white;
+    font-size: 4em;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+p.headtext {
+    font-family: "Lato-Light";
+    color: white;
+    font-size: 1.5em;
+    width: 50%;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3em;
+}
+
+.all .lefttext {
+    font-family: "Lato-Light";
+    font-weight: 700;
+    color: orange;
+    font-size: 1.5em;
+    width: 20%;
+    line-height: 1.5;
+}
+
+.all .righttext {
+    width: 40%;
+    font-size: 1.1em;
+    line-height: 2;
+    font-family: "Lato-Light";
+    font-weight: 500;
+}
+
+.all .righttext h2 {
+    font-family: "Lato-Bold";
+    font-weight: 600;
+    color: orange;
+    line-height: none;
+}
+
+.buttons {
+    display: flex;
+    margin: 5%;
+    margin-left: 35%;
+    padding-bottom: 5em;
+}
+
+button {
+    width: 5%;
+    height: 3em;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(231, 115, 112);
+    padding: 4em;
+    color: white;
+    font-size: 1em;
+    font-family: "DroidSans";
+    height: 100%;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-family: "DroidSans";
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2em;
+}
+
+footer div a {
+    line-height: 2.5em;
+    color: white;
+}
+
+footer div a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
